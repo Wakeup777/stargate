@@ -14,6 +14,7 @@ import {
   View,
   Text,
   StatusBar,
+  ImageBackground,
 } from 'react-native';
 
 import {
@@ -42,8 +43,8 @@ const App: () => React$Node = () => {
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
+                Today we will study
+                <Text style={styles.highlight}>react-native</Text>
               </Text>
             </View>
             <View style={styles.sectionContainer}>
@@ -102,8 +103,8 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   footer: {
-    color: Colors.dark,
-    fontSize: 12,
+    color: Colors.blue,
+    fontSize: 33,
     fontWeight: '600',
     padding: 4,
     paddingRight: 12,
