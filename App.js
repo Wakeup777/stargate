@@ -13,7 +13,8 @@ import {
   ScrollView,
   View,
   Text,
-  StatusBar, ImageBackground,
+  StatusBar,
+  ImageBackground,
 } from 'react-native';
 
 import {
