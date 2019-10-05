@@ -13,8 +13,7 @@ import {
   ScrollView,
   View,
   Text,
-  StatusBar,
-  ImageBackground,
+  StatusBar, ImageBackground,
 } from 'react-native';
 
 import {
@@ -104,7 +103,7 @@ const styles = StyleSheet.create({
   },
   footer: {
     color: Colors.blue,
-    fontSize: 33,
+    fontSize: 12,
     fontWeight: '600',
     padding: 4,
     paddingRight: 12,
