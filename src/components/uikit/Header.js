@@ -1,6 +1,7 @@
 // import
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
+import {ifIphoneX} from 'react-native-iphone-x-helper'
 
 // body
 
@@ -29,6 +30,14 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2,
     elevation: 2,
     position: 'relative',
+    // eslint-disable-next-line no-undef
+    ...ifIphoneX({
+        paddingTop: 30,
+      },
+      {
+        paddingTop: 20,
+      },
+    ),
   },
   boxStyle: {
     justifyContent: 'center',
