@@ -34,6 +34,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     width: w / 2,
     fontWeight:'700',
+    paddingRight:10,
+    paddingLeft:10,
 
   },
   cover: {
